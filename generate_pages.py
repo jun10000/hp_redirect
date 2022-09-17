@@ -10,7 +10,7 @@ html_template = """<html>
     </body>
 </html>"""
 
-wait_seconds = 0
+wait_seconds = 5
 html_template = html_template.replace("{{1}}", str(wait_seconds), 2)
 
 redirect_pairs = [
